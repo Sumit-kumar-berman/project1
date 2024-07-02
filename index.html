@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katni food ordering hub</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: cursive;
+        }
+
+        .bg {
+            margin: 0px;
+            background-image: url("back.jpg");
+            height: 700px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .head {
+            position: absolute;
+            top: 260px;
+            left: 370px;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            font-size: 65px;
+
+
+        }
+
+        .list {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 950px;
+            color: white;
+            list-style: none;
+            display: flex;
+        }
+
+        .list li {
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 50px;
+            font-size: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .list li:hover {
+            background-color: azure;
+            color: black;
+            border-radius: 60px;
+            border: 2px solid grey;
+
+        }
+
+        .para {
+            color: white;
+            position: absolute;
+            top: 350px;
+            left: 590px;
+            font-size: 40px;
+            color: rgb(228, 217, 210);
+        }
+
+        .inn {
+            color: antiquewhite;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .res {
+            background-color: rgb(174, 174, 121);
+            border: 2px solid brown;
+            height: 900px;
+            width: 450px;
+            margin-left: 80px;
+            margin-top: 50px;
+
+
+
+        }
+
+        .items li {
+
+            list-style: none;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .items li:hover {
+            border: 2px solid black;
+            border-radius: 50px;
+            background-color: black;
+            color: aliceblue;
+            font-size: 33px;
+        }
+
+        .veg {
+            text-align: center;
+            color: brown;
+            font-size: 40px;
+        }
+
+        .res1 {
+            background-color: rgb(174, 174, 121);
+            border: 2px solid brown;
+            height: 900px;
+            width: 450px;
+            margin-left: 80px;
+            margin-top: 50px;
+            position: absolute;
+            left: 500px;
+            bottom: px;
+            top: 757px;
+        }
+
+        .res3 {
+            
+            background-color: rgb(174, 174, 121);
+            border: 2px solid brown;
+            height: 900px;
+            width: 450px;
+            margin-left: 80px;
+            margin-top: 50px;
+            position: absolute;
+            left: 1000px;
+            bottom: px;
+            top: 757px;
+        }
+
+        .center {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+
+        #lan {
+            cursor: pointer;
+
+            position: absolute;
+            top: 45px;
+            left: 170px;
+            padding: 10px;
+            background-color: rgb(93, 70, 70);
+            font-size: 20px;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .vdo{
+            
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+    
+<video autoplay loop muted plays.inline src="sumitji.mp4" class="vdo"></video>
+        <select name="" id="lan" onchange="window.location.href=this.value;">
+            <option value="">Language</option>
+            <option value="">English</option>
+            <option value="hindi.html">Hindi</option>
+            <option value="">Arabic</option>
+            <option value="">Aarbi</option>
+            <option value="">Marathi</option>
+            <option value="">Punjabi</option>
+        </select>
+        <ul class="list">
+
+            <li>Add resturant</li>
+            <li>Log in</li>
+            <li>Sign up</li>
+        </ul>
+
+        <h1 class="head"> KATNI FOOD ORDERING HUB</h1>
+        <p class="para">Find the best restaurants,<br> cafés and bars in India</p>
+    </div>
+
+    <h1 class="inn">Popular locations in
+
+        Katni</h1>
+
+    <div class="res">
+
+        <u>
+            <h1 class="veg">VEG RESTAURANTS</h1>
+        </u>
+        <ul class="items">
+            <li>BHOG FAMILY RESTAURANTS</li>
+            <li> SKYLIGHT RESTAURANTS</li>
+            <li>NH7 RESTAURANTS</li>
+            <li>GOLU RESTAURANTS</li>
+            <li>HOTEL RADHIKA</li>
+            <li>THE CHEFF</li>
+            <li>SAFFRON</li>
+            <li>URVASHI RESTAURANTS</li>
+            <li>TABLE TALK</li>
+            <li>PUNJABI DHABA</li>
+        </ul>
+
+    </div>
+
+    <div class="res1">
+
+        <u>
+            <h1 class="veg">NON-VEG RESTAURANTS</h1>
+        </u>
+        <ul class="items">
+            <li>ALLAHBADI BIRYANI RESTAURANTS</li>
+            <li> INDORE MUTTON POINT</li>
+            <li>MARATHA FORT NON-VEG</li>
+            <li>MR .SINGH RESTAURANT</li>
+            <li>DESI ZYKA</li>
+            <li>BIRANI POINT</li>
+            <li>ALKABIR NON-VEG</li>
+            <li>VISHAL NON-VEG POINT</li>
+            <li>NAJAR HOTEL</li>
+            <li>SILBATTA</li>
+        </ul>
+
+    </div>
+    <div class="res3">
+
+        <u>
+            <h1 class="veg">SOUTH-INDIAN RESTAURANTS</h1>
+        </u>
+        <ul class="items">
+            <li>MISTER DOSA&IDLI</li>
+            <li> GANESH DOSA</li>
+            <li>DOSA CRUSH</li>
+            <li>ANNPURNA BHOJNALAY</li>
+            <li>DOSA HUB</li>
+            <li>BIRANI POINT</li>
+            <li>K NATRAJAN IDLI POINT</li>
+            <li>RASOI THE REST</li>
+            <li>RAVI SOUTH INDIA SNAKS</li>
+            <li>SHRI KRISHNAN IYER DOSA POINT</li>
+        </ul>
+
+    </div>
+    <div class="center">
+        Copyright &copy; www.Katnifooddeliveryhun.com Allrights reserved
+    </div>
+    
+
+</body>
+
+</html>
